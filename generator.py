@@ -7,7 +7,7 @@ client = OpenAI()
 OpenAI.api_key = os.getenv('OPENAI_API_KEY')
 
 def generate_ad_copy(brand_name, product_desc, target_audience, tone="Exciting"):
-    """This func generates a dope ad copy using OpenAI."""
+    """This func generates a dope ad copy using OpenAI...."""
     
     # Simple logs in English
     print(f"===> Starting ad generation for {brand_name}")
